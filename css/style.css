@@ -1,0 +1,152 @@
+@charset "UTF-8";
+.navigation__bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1.4rem;
+  align-items: center; }
+
+.navigation__options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 0.3rem;
+  color: #4b4b4bd5; }
+
+.nav-item {
+  padding: 0 30px;
+  font-size: 1rem; }
+
+.nav-item:hover {
+  color: #000; }
+
+.logo__box {
+  font-size: 1.6rem; }
+
+.nav__button {
+  border-radius: 4px;
+  border: none;
+  color: blue;
+  text-align: center;
+  font-size: 1rem;
+  background-color: transparent;
+  padding: 0.9rem 2.2rem;
+  font-weight: 400;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  border: 0.5px solid blue;
+  margin-left: 30px; }
+
+.nav__button {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s; }
+
+.nav__button:after {
+  content: "\279E";
+  position: absolute;
+  opacity: 0;
+  top: 14px;
+  right: -20px;
+  transition: 0.5s; }
+
+.nav__button:hover {
+  padding-right: 24px;
+  padding-left: 8px; }
+
+.nav__button:hover:after {
+  opacity: 1;
+  right: 10px; }
+
+/* Hero Section */
+.hero__section {
+  background-color: #fff;
+  height: 84vh; }
+
+.hero__section-heading {
+  position: absolute;
+  top: 26%;
+  left: 34%;
+  transition: transform(-50%, -50%);
+  text-align: center;
+  font-size: 2.8rem;
+  text-transform: capitalize;
+  font-weight: 700; }
+
+.hero__section-subtext {
+  position: relative;
+  top: 37%;
+  left: 1.6%;
+  transition: transform(-50%, -50%);
+  text-align: center;
+  font-size: 1.2rem; }
+
+/*Button Design - Hero Section */
+.hero__section-button {
+  position: relative;
+  border-radius: 4px;
+  top: 47%;
+  left: 47%;
+  transition: transform(-50%, -50%);
+  background-image: linear-gradient(to right top, #8012ff 6%, #0832ee 58%, #6094e9 100%);
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 0.9rem 2.1rem;
+  font-weight: 500;
+  width: 160px;
+  transition: all 0.5s;
+  cursor: pointer;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7); }
+
+.hero__section-button {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s; }
+
+.hero__section-button:after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  top: 14px;
+  right: -20px;
+  transition: 0.5s; }
+
+.hero__section-button:hover {
+  padding-right: 24px;
+  padding-left: 8px; }
+
+.hero__section-button:hover:after {
+  opacity: 1;
+  right: 10px; }
+
+/* Hero Section - Attractions List */
+.attractions {
+  position: relative;
+  top: 56%;
+  left: 34%;
+  transition: transform(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 34rem;
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #5e5e5e; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html::-webkit-scrollbar {
+  display: none; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+  overflow: hidden; }
